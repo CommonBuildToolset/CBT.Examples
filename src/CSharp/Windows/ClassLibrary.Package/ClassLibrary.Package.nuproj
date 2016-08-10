@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>e2dd21ae-a8e6-4263-a8ad-dc735c7bfa58</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), build.props))\build.props" />
+  <Import Project="$(NuProjPath)\NuProj.props" Condition="Exists('$(NuProjPath)\NuProj.props')" />
+  <PropertyGroup Label="Configuration">
+    <Id>CBT.Examples.CSharp.Windows.ClassLibrary</Id>
+    <Version>1.0.0</Version>
+    <Title>CSharp Windows Class Library Example</Title>
+    <Authors>Common Build Toolset (CBT)</Authors>
+    <Owners>Common Build Toolset (CBT)</Owners>
+    <Summary>A sample package of a CSharp class library</Summary>
+    <Description>A sample package of a CSharp class library</Description>
+    <ReleaseNotes/>
+    <ProjectUrl/>
+    <LicenseUrl/>
+    <Copyright>Copyright © CBT</Copyright>
+    <Tags>CBT example</Tags>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary\ClassLibrary.csproj" />
+  </ItemGroup>
+  <Import Project="$(NuProjPath)\NuProj.targets" />
+</Project>

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "CSharp\Windows\ClassLibrary\ClassLibrary.csproj", "{D540CE5E-8AED-4B01-B302-ABDF29191ABE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{EFBDF3EC-8326-4F48-B206-6B11C6D6D6EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows", "Windows", "{7DD6BBE0-EBD3-4D40-B197-05FAFB6665A1}"
+EndProject
+Project("{FF286327-C783-4F7A-AB73-9BCBAD0D4460}") = "ClassLibrary.Package", "CSharp\Windows\ClassLibrary.Package\ClassLibrary.Package.nuproj", "{E2DD21AE-A8E6-4263-A8AD-DC735C7BFA58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D540CE5E-8AED-4B01-B302-ABDF29191ABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D540CE5E-8AED-4B01-B302-ABDF29191ABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D540CE5E-8AED-4B01-B302-ABDF29191ABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D540CE5E-8AED-4B01-B302-ABDF29191ABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2DD21AE-A8E6-4263-A8AD-DC735C7BFA58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2DD21AE-A8E6-4263-A8AD-DC735C7BFA58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2DD21AE-A8E6-4263-A8AD-DC735C7BFA58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2DD21AE-A8E6-4263-A8AD-DC735C7BFA58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D540CE5E-8AED-4B01-B302-ABDF29191ABE} = {7DD6BBE0-EBD3-4D40-B197-05FAFB6665A1}
+		{7DD6BBE0-EBD3-4D40-B197-05FAFB6665A1} = {EFBDF3EC-8326-4F48-B206-6B11C6D6D6EA}
+		{E2DD21AE-A8E6-4263-A8AD-DC735C7BFA58} = {7DD6BBE0-EBD3-4D40-B197-05FAFB6665A1}
+	EndGlobalSection
+EndGlobal

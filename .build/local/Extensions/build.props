@@ -27,5 +27,9 @@
   <PropertyGroup Condition=" '$(MSBuildProjectExtension)' == '.nuproj'" >
     <NuProjPath Condition=" '$(NuProjPath)' == '' ">$(CBTModule_NuProj)\tools</NuProjPath>
   </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(MSBuildProjectExtension)' != '.nuproj' And !Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.targets\ImportAfter\Microsoft.Common.NuProj.targets') " >
+    <EnableNuProj_Common Condition=" '$(EnableNuProj_Common)' == '' ">true</EnableNuProj_Common>
+  </PropertyGroup>
   
 </Project>

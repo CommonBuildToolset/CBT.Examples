@@ -1,9 +1,5 @@
 {
   "dependencies": {
-    "NuProj.Common": {
-      "version": "0.11.14-beta",
-      "type": "build"
-    }
   },
   "frameworks": {
     "net45": {}

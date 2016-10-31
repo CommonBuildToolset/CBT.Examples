@@ -1,4 +1,4 @@
 ﻿using System.Reflection;
 
-[assembly: AssemblyTitle("ClassLibrary")]
+[assembly: AssemblyTitle("MSTest")]
 [assembly: AssemblyDescription("")]

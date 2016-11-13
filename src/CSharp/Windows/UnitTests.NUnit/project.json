@@ -1,7 +1,7 @@
 ﻿{
   "dependencies": {
     "NUnit": "3.5.0",
-    "NUnit3TestAdapter": "3.5.1"
+    "NUnit3TestAdapter": "3.5.0"
   },
   "frameworks": {
     "net45": {}

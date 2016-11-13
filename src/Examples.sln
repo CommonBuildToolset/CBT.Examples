@@ -11,9 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows", "Windows", "{7DD6
 EndProject
 Project("{FF286327-C783-4F7A-AB73-9BCBAD0D4460}") = "ClassLibrary.Package", "CSharp\Windows\ClassLibrary.Package\ClassLibrary.Package.nuproj", "{E2DD21AE-A8E6-4263-A8AD-DC735C7BFA58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSTest", "CSharp\Windows\MSTest\MSTest.csproj", "{E8223B69-E932-4807-9F43-E4CA8A6FCF67}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests.MSTest", "CSharp\Windows\UnitTests.MSTest\UnitTests.MSTest.csproj", "{E8223B69-E932-4807-9F43-E4CA8A6FCF67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnit", "CSharp\Windows\NUnit\NUnit.csproj", "{A66D345A-6ACB-4F67-9E09-9E661F3258D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests.NUnit", "CSharp\Windows\UnitTests.NUnit\UnitTests.NUnit.csproj", "{A66D345A-6ACB-4F67-9E09-9E661F3258D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

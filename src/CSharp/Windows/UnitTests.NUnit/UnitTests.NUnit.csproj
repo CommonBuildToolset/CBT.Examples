@@ -14,7 +14,7 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="UnitTest1.cs" />
+    <Compile Include="NUnitExample.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

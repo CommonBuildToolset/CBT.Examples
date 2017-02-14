@@ -15,6 +15,24 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests.MSTest", "CSharp\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests.NUnit", "CSharp\Windows\UnitTests.NUnit\UnitTests.NUnit.csproj", "{A66D345A-6ACB-4F67-9E09-9E661F3258D5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{AC68887C-0ADE-4162-AAC6-C4BE0591FCCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{CA51CDFF-E7D8-4D6C-A2D3-F6EF8E307357}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseGlobalPackages", "Modules\NuGet\UseGlobalPackages\UseGlobalPackages.csproj", "{07DF7D18-7113-4A01-AFE1-ED357E078A5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{3A318C41-226B-438E-9074-174956416826}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CBTModules", "CBTModules", "{2FA3E9A5-2166-4016-BD02-EBB109CBD522}"
+	ProjectSection(SolutionItems) = preProject
+		..\.build\local\CBTModules\project.json = ..\.build\local\CBTModules\project.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GlobalPackages", "GlobalPackages", "{960B89B6-D833-4100-A827-E8D7E59D4747}"
+	ProjectSection(SolutionItems) = preProject
+		..\.build\local\GlobalPackages\packages.config = ..\.build\local\GlobalPackages\packages.config
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +55,10 @@ Global
 		{A66D345A-6ACB-4F67-9E09-9E661F3258D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A66D345A-6ACB-4F67-9E09-9E661F3258D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A66D345A-6ACB-4F67-9E09-9E661F3258D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07DF7D18-7113-4A01-AFE1-ED357E078A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07DF7D18-7113-4A01-AFE1-ED357E078A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07DF7D18-7113-4A01-AFE1-ED357E078A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07DF7D18-7113-4A01-AFE1-ED357E078A5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,5 +69,9 @@ Global
 		{E2DD21AE-A8E6-4263-A8AD-DC735C7BFA58} = {7DD6BBE0-EBD3-4D40-B197-05FAFB6665A1}
 		{E8223B69-E932-4807-9F43-E4CA8A6FCF67} = {7DD6BBE0-EBD3-4D40-B197-05FAFB6665A1}
 		{A66D345A-6ACB-4F67-9E09-9E661F3258D5} = {7DD6BBE0-EBD3-4D40-B197-05FAFB6665A1}
+		{CA51CDFF-E7D8-4D6C-A2D3-F6EF8E307357} = {AC68887C-0ADE-4162-AAC6-C4BE0591FCCC}
+		{07DF7D18-7113-4A01-AFE1-ED357E078A5A} = {CA51CDFF-E7D8-4D6C-A2D3-F6EF8E307357}
+		{2FA3E9A5-2166-4016-BD02-EBB109CBD522} = {3A318C41-226B-438E-9074-174956416826}
+		{960B89B6-D833-4100-A827-E8D7E59D4747} = {3A318C41-226B-438E-9074-174956416826}
 	EndGlobalSection
 EndGlobal

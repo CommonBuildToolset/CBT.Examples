@@ -2,7 +2,8 @@
   "dependencies": {
     "CBT.AssemblyInfo": "1.0.3-beta",
     "CBT.DotNetFx": "4.5.0-beta02",
-    "CBT.NuGet": "1.0.5-beta",
+    "CBT.NuGet": "1.0.35-dev-g82196a0016",
+    "CBT.NuGet.GlobalRestore": "1.0.7-dev-g9549b96cb2",
     "CBT.Traversal": "1.0.1",
     "NuProj": "0.11.14-beta",
     "NuProj.Common": "0.11.14-beta"
